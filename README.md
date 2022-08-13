@@ -31,6 +31,6 @@ Se eligió esta paleta de colores buscando ir con tonalidades en color madera y 
 
 #### Creación de logo
 
-El logo representa el nombre de la empresa, con fuente redondeada simulando curvas de clave de sol y adorno de instrumentos dorados para dar clase y estilismo.  
+El logo representa el nombre de la empresa, con fuente redondeada simulando curvas de clave de sol y adorno de mástiles de guitarra formando un corazón, denotando amor por la música. 
 
 ![ScreenShot](assets/images/logo.png)
