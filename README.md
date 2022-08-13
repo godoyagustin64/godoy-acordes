@@ -13,30 +13,24 @@ el Público objetivo es variado, ya sea músicos profesionales o cualquier perso
 
 #### Tipografía Principal
 
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
-p = {
-    font-family: 'Kdam Thmor Pro', sans-serif;
-}
-</style>
+**font-family: 'Kdam Thmor Pro'**
 
-<p>Se eligió esta tipografía como principal para los textos de la página.<p>
+Se eligió esta tipografía como principal para los textos de la página.
 
+**font-family: 'El Messiri', sans-serif;**
+
+Se eligió esta fuente para el nombre de la página, intercambiable por logo en algún otro diseño. 
 
 #### Paleta de colores
 
-https://colorhunt.co/palette/1b243051557e816797d6d5a8
+https://colorhunt.co/palette/c36a2de2c275eadca6fbfbfb
 
-Se eligió esta paleta de colores buscando ir con tonalidades oscuras con ***acento armónico***, para simular lo onírico, de ensueño, si se quiere cósmico.
+![ScreenShot](assets/images/color-palette.png)
+
+Se eligió esta paleta de colores buscando ir con tonalidades en color madera y dorado, colores comunes en las familias de instrumentos musicales.  ***Colores armónicos*** para acompañar la calidez de la música. 
 
 #### Creación de logo
 
-El logo representa el nombre de la empresa, con adorno de estilo minimalista y geométrico.
+El logo representa el nombre de la empresa, con fuente redondeada simulando curvas de clave de sol y adorno de instrumentos dorados para dar clase y estilismo.  
 
-![ScreenShot](Onirico1.png)
-
-#### Diseño FIGMA
-
-En el siguiente link se encuentra el diseño en FIGMA con diferentes wireframes para fuente, componentes, mobile (Home, Detail product, Login, Register, Carrito) y Desktop (Home, Detail product y Carrito).
-
-https://www.figma.com/file/YMansilQnPn66n5YarDT6u/BOCETOS-PARA-ECOMMERCE-(Copy)?node-id=3%3A362
+![ScreenShot](assets/images/logo.png)
