@@ -40,6 +40,7 @@ body{
     height: auto;
     background-image: linear-gradient(#FBFBFB 50%, #E2C275);
 }
+
 .banner{
     display: flex;
     flex-direction: column;
@@ -69,8 +70,9 @@ body{
     flex-direction: column;
     min-width: 30vw;
     width: 50vw;
-    height: 25vh;
-    font-size: 20px;
+    height: auto;
+    padding: 10px;
+    font-size: 30px;
     background-color: #1B2430;
     border-radius: 20px;
     border-color: black;
@@ -83,11 +85,18 @@ body{
     object-fit: contain;
 }
 button{
-    width: 70px;
-    height: 30px;
+    width: 15vw;
+    height: 3vh;
     color:#1B2430;
     font-weight: bolder;
     border-radius: 5px;
+    font-size: 20px;
+}
+.services article div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
 }
 button:hover{
     background-color: gray;
@@ -95,13 +104,10 @@ button:hover{
     transition-duration: 0.3s;
     box-shadow: 0 4px 16px rgba(49, 138, 172, 1);
 }
-button:active{
-    width: 68px;
-    height: 29px;
-}
+
 button img{
-    height: 25px;
-    width: 60px;
+    height: auto;
+    width: 10vw;
 }
 
 .nosotros{
@@ -120,6 +126,7 @@ button img{
     flex-direction: column;
     align-items: center;
     gap: 30px;
+    padding: 10px;
     background: radial-gradient(50% 50% at 50% 50%, rgba(187, 192, 197, 0.301) 0%, rgba(228, 228, 220, 0.158) 30.21%, #595f682c 50%);
     border-radius: 20px;
     width: 70%;
@@ -150,7 +157,6 @@ footer{
     background-image: url("assets/images/footer-partitura-opacity.png");
     background-repeat: no-repeat;
     background-size:cover;
-    background-position-y: bottom;
     display: flex;
     flex-direction: column;
     gap: 10px;
