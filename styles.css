@@ -86,11 +86,13 @@ body{
 }
 button{
     width: 15vw;
-    height: 3vh;
+    height: auto;
+    min-height: 4.5vh;
     color:#1B2430;
     font-weight: bolder;
     border-radius: 5px;
-    font-size: 20px;
+    font-size: 25px;
+    text-align: center;
 }
 .services article div{
     display: flex;
@@ -106,7 +108,7 @@ button:hover{
 }
 
 button img{
-    height: auto;
+    height: 2.8vh;
     width: 10vw;
 }
 
@@ -156,7 +158,8 @@ button img{
 footer{
     background-image: url("assets/images/footer-partitura-opacity.png");
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
+    background-position: center;
     display: flex;
     flex-direction: column;
     gap: 10px;
