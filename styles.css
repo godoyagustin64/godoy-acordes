@@ -1,0 +1,214 @@
+/* ___MOBILE FIRST___ */
+
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    color: #C36A2D;
+    text-align: center;
+
+}
+
+:root{
+    --primary: #C36A2D;
+    --secondary: #FBFBFB;
+}
+
+
+header{
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 100vw;
+    height: 15vh;
+    background-color: #E2C275;
+    align-items: center;
+    text-decoration: none;
+}
+#imglogo{
+    width: 20vw;
+    border-radius: 100%;
+}
+#burgerMenu img{
+    width: 10vw;
+    height: 10vw;
+}
+body{
+    width: 100vw;
+    height: auto;
+    background-image: linear-gradient(#FBFBFB 50%, #E2C275);
+}
+.banner{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0px;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 40px;
+}
+
+.products h2{
+    margin-bottom: 50px;
+    font-size: 50px;
+}
+
+.services{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.services article{
+    display: flex;
+    flex-direction: column;
+    min-width: 30vw;
+    width: 50vw;
+    height: 25vh;
+    font-size: 20px;
+    background-color: #1B2430;
+    border-radius: 20px;
+    border-color: black;
+    border-style: groove;
+    background: radial-gradient(50% 50% at 50% 50%, rgba(187, 192, 197, 0.301) 0%, rgba(228, 228, 220, 0.158) 30.21%, #595f682c 50%);
+}
+.productImg{
+    border-radius: 5%;
+    height: 20vh;
+    object-fit: contain;
+}
+button{
+    width: 70px;
+    height: 30px;
+    color:#1B2430;
+    font-weight: bolder;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: gray;
+    cursor: pointer;
+    transition-duration: 0.3s;
+    box-shadow: 0 4px 16px rgba(49, 138, 172, 1);
+}
+button:active{
+    width: 68px;
+    height: 29px;
+}
+button img{
+    height: 25px;
+    width: 60px;
+}
+
+.nosotros{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 100px;
+    max-width: 100%;
+    align-items: center;
+    text-shadow: 3px 3px 2px #1B2430;
+
+}
+
+.nosotros article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    background: radial-gradient(50% 50% at 50% 50%, rgba(187, 192, 197, 0.301) 0%, rgba(228, 228, 220, 0.158) 30.21%, #595f682c 50%);
+    border-radius: 20px;
+    width: 70%;
+    height: auto;
+    border-color: black;
+    border-style: groove;
+}
+
+.nosotros img{
+    width: 50vw;
+    height: 30vh;
+    border-radius: 20px;
+    object-fit: cover;
+    
+}
+.nosotros h2{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+.nosotros p{
+    font-size: 35px;
+    width: 50vw;
+    height: auto;
+    
+}
+
+footer{
+    background-image: url("assets/images/footer-partitura-opacity.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position-y: bottom;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100vw;
+    max-width: 100vw;
+}
+.despedida{
+    color: black;
+    font-size: 40px;
+    text-shadow: 3px 3px 3px #E2C275;
+}
+
+footer img{
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+    margin-right: 20px;
+}
+footer div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    max-height: 20vh;
+}
+footer div ul{
+    list-style: none;
+    width: 33%;
+    color: black;
+    font-size: 40px;
+    text-shadow: 3px 3px 3px #E2C275;
+}
+footer div ul li{
+    color: #1B2430;
+    font-weight:900;
+    margin-bottom: 20px;
+}
+footer div p{
+    width: 33%;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 25px;
+    text-shadow: 3px 3px 3px #E2C275;
+
+}
+.redes{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.redes p{
+    color: black;
+    font-size: 40px;
+    text-shadow: 3px 3px 3px #E2C275;
+}
+
+
