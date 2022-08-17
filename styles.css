@@ -250,8 +250,9 @@ footer div p{
     align-items: center;
 }
 .carrito article button{
-    height: 6vw;
-    width: 6vw;
+    height: 5vw;
+    min-height: 5vw;
+    width: 5vw;
     border-radius: 100%;
 }
 .carrito article img{
@@ -266,4 +267,15 @@ footer div p{
 }
 .carrito article a{
     font-size: larger;
+}
+
+#cantidadCarrito p{
+    font-size: 2vh;
+}
+.priceAndRemove{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    font-size: 1.5vh;
 }
