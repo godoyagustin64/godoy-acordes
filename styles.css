@@ -28,7 +28,8 @@ header{
     text-decoration: none;
 }
 #imglogo{
-    width: 30vw;
+    height: 14vh;
+    width: auto;
     border-radius: 100%;
 }
 #burgerMenu img{
@@ -129,7 +130,7 @@ button img{
     align-items: center;
     gap: 30px;
     padding: 10px;
-    background: radial-gradient(50% 50% at 50% 50%, rgba(187, 192, 197, 0.301) 0%, rgba(228, 228, 220, 0.158) 30.21%, #595f682c 50%);
+    background: radial-gradient(50% 50% at 50% 50%, #bbc0c54d 0%, rgba(228, 228, 220, 0.158) 30.21%, #595f682c 50%);
     border-radius: 20px;
     width: 70%;
     height: auto;
@@ -159,12 +160,13 @@ footer{
     background-image: url("assets/images/footer-partitura-opacity.png");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position:bottom;
     display: flex;
     flex-direction: column;
     gap: 10px;
     width: 100vw;
     max-width: 100vw;
+    height: 40vh;
 }
 .despedida{
     color: black;
@@ -172,7 +174,7 @@ footer{
     text-shadow: 3px 3px 3px #E2C275;
 }
 
-footer img{
+.redes img{
     height: 60px;
     width: 60px;
     border-radius: 100%;
@@ -220,4 +222,48 @@ footer div p{
     text-shadow: 3px 3px 3px #E2C275;
 }
 
+/* DETAIL PRODUCT */
 
+#detailProduct{
+    margin: 10%;
+    padding: 5%;
+    border-radius: 20px;
+    background: radial-gradient(50% 50% at 50% 50%, rgba(187, 192, 197, 0.301) 0%, rgba(228, 228, 220, 0.158) 30.21%, #595f682c 50%);    
+}
+#detailProduct img{
+    border-radius: 20px;
+}
+
+/* CARRITO */
+
+.carrito{
+    margin: 10%;
+    padding: 5%;
+    border-radius: 20px;
+    background: radial-gradient(50% 50% at 50% 50%, rgba(187, 192, 197, 0.301) 0%, rgba(228, 228, 220, 0.158) 30.21%, #595f682c 50%);
+    display: flex;
+    flex-direction: column;
+}
+.carrito article{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.carrito article button{
+    height: 6vw;
+    width: 6vw;
+    border-radius: 100%;
+}
+.carrito article img{
+    width: 20vw;
+    height: auto;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.carrito article p{
+    font-size: larger;
+}
+.carrito article a{
+    font-size: larger;
+}
