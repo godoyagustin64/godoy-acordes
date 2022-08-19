@@ -29,6 +29,9 @@ header{
     align-items: center;
     text-decoration: none;
 }
+nav{
+    display: none;
+}
 #imglogo{
     height: 14vh;
     width: auto;
@@ -75,6 +78,7 @@ body{
     flex-direction: column;
     align-items: center;
     min-width: 40vw;
+    max-width: 60vw;
     width: 60vw;
     height: auto;
     padding: 10px;
@@ -192,6 +196,8 @@ footer div{
     max-height: 20vh;
 }
 footer div ul{
+    display: flex;
+    flex-direction: column;
     list-style: none;
     color: black;
     font-size: 2.5vh;
@@ -295,13 +301,106 @@ footer div p{
     gap: 20px;
     font-size: 1.5vh;
 }
-/* TABLET */
+/* DESKTOP */
 
-/* @media (min-width: 700px) {
+@media (min-width: 1024px) {
+
+/* MAIN */
+
+    header{
+        height: 8vh;
+    }
+    nav{
+        display: block;
+    }
+    nav ul{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+    nav ul li{
+        list-style: none;
+    }
+    #imglogo{
+        height: 7vh;
+        width: auto;
+    }
+    #burgerMenu{
+        display: none;
+    }
+
+    .banner p{
+        font-size: 2.7vh;
+    }
     
+
+    #bannerImg{
+        width: 100%;
+        height: 20vh;
+        object-fit: cover;
+        object-position: bottom;
+    }
+
+
+    .products{
+        margin-top: 50px;
+    }
     .services{
         flex-direction: row;
         align-items: center;
+        flex-wrap: wrap;
     }
 
-} */
+    .services article{
+        min-width: 20%;
+        width: 20%;
+        height: auto;
+        padding: 10px;
+        border-radius: 20px;
+        border-color: black;
+        border-style: groove;
+        background: radial-gradient(50% 50% at 50% 50%, rgba(187, 192, 197, 0.301) 0%, rgba(228, 228, 220, 0.158) 30.21%, #595f682c 50%);
+    }
+    button{
+        width: 8vw;
+        height: 4vw;
+        color:#1B2430;
+        font-weight: bolder;
+        border-radius: 5px;
+        font-size: 1.5vw;
+        text-align: center;
+    }
+    button img{
+        width: 6vw;
+        height: 3vw;
+    }
+
+    footer{
+        height: 30vh;
+    }
+    .despedida{
+        font-size: large;
+    }
+    footer div p{
+        font-size: small;
+    }
+    footer div ul{
+        gap: 30px;
+        flex-direction: row;
+        margin-bottom: 40px;
+        font-size: 1.6vw;
+    }
+    .redes{
+        background-color: rgba(236, 162, 24, 0.322);
+        width: 50%;
+        justify-content: space-around;
+        border-radius: 20px;
+    }
+}
+
+
+
+
+
+/* DETAIL PRODUCTS DESKTOP */
+
