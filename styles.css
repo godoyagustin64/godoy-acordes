@@ -8,6 +8,7 @@
     font-family: 'Kdam Thmor Pro', sans-serif;
     color: #C36A2D;
     text-align: center;
+    box-sizing: border-box;
 
 }
 
@@ -47,15 +48,17 @@ body{
     display: flex;
     flex-direction: column;
     width: 100%;
-    margin: 0px;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 40px;
+}
+.banner p{
+    margin: 0px 15px 0px 15px
 }
 
+#bannerImg{
+    max-width: 100%;
+}
 .products h2{
     margin-bottom: 50px;
-    font-size: 50px;
+    font-size: 30px;
 }
 
 .services{
@@ -63,44 +66,45 @@ body{
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    gap: 10px;
+    gap: 15px;
 }
 
 
 .services article{
     display: flex;
     flex-direction: column;
-    min-width: 30vw;
-    width: 50vw;
+    align-items: center;
+    min-width: 40vw;
+    width: 60vw;
     height: auto;
     padding: 10px;
-    font-size: 30px;
-    background-color: #1B2430;
+    font-size: 20px;
     border-radius: 20px;
     border-color: black;
     border-style: groove;
     background: radial-gradient(50% 50% at 50% 50%, rgba(187, 192, 197, 0.301) 0%, rgba(228, 228, 220, 0.158) 30.21%, #595f682c 50%);
 }
 .productImg{
-    border-radius: 5%;
+    border-radius: 20px;
     height: 20vh;
+    width: 80%;
     object-fit: contain;
+
 }
 button{
     width: 15vw;
-    height: auto;
-    min-height: 4.5vh;
+    height: 8vw;
     color:#1B2430;
     font-weight: bolder;
     border-radius: 5px;
-    font-size: 25px;
+    font-size: 3vw;
     text-align: center;
 }
 .services article div{
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    gap: 20px;
 }
 button:hover{
     background-color: gray;
@@ -110,7 +114,7 @@ button:hover{
 }
 
 button img{
-    height: 2.8vh;
+    height: 5vw;
     width: 10vw;
 }
 
@@ -118,10 +122,10 @@ button img{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    gap: 100px;
+    gap: 50px;
     max-width: 100%;
     align-items: center;
-    text-shadow: 3px 3px 2px #1B2430;
+    text-shadow: 1px 1px 1px #1B2430;
 
 }
 
@@ -129,30 +133,30 @@ button img{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 30px;
+    gap: 15px;
     padding: 10px;
     background: radial-gradient(50% 50% at 50% 50%, #bbc0c54d 0%, rgba(228, 228, 220, 0.158) 30.21%, #595f682c 50%);
     border-radius: 20px;
-    width: 70%;
+    width: 80%;
     height: auto;
     border-color: black;
     border-style: groove;
 }
 
 .nosotros img{
-    width: 50vw;
+    width: 70vw;
     height: 30vh;
     border-radius: 20px;
     object-fit: cover;
     
 }
 .nosotros h2{
-    font-size: 50px;
+    font-size: 20px;
     margin-bottom: 30px;
 }
 .nosotros p{
-    font-size: 35px;
-    width: 50vw;
+    font-size: 16px;
+    width: 70vw;
     height: auto;
     
 }
@@ -171,7 +175,7 @@ footer{
 .despedida{
     color: black;
     font-size: 2.3vh;
-    text-shadow: 3px 3px 3px #E2C275;
+    text-shadow: 3px 3px 3px #eeb93e;
 }
 
 .redes img{
@@ -185,41 +189,41 @@ footer div{
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    gap: 10px;
     max-height: 20vh;
 }
 footer div ul{
     list-style: none;
-    width: 33%;
     color: black;
-    font-size: 3vh;
-    text-shadow: 3px 3px 3px #E2C275;
+    font-size: 2.5vh;
+    text-shadow: 3px 3px 3px #eeb93e;
 }
 footer div ul li{
     color: #1B2430;
     font-weight:900;
-    margin-bottom: 20px;
 }
 footer div p{
     width: 33%;
     align-items: center;
     justify-content: center;
     color: black;
-    font-size: 25px;
-    text-shadow: 3px 3px 3px #E2C275;
+    font-size: 3vw;
+    text-shadow: 3px 3px 3px #eeb93e;
 
 }
 .redes{
-    width: 90%;
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    margin-bottom: 15px;
+    text-shadow: 3px 3px 3px #eeb93e;
 }
 .redes p{
     color: black;
     font-size: 2vh;
-    text-shadow: 3px 3px 3px #E2C275;
+    text-shadow: 3px 3px 3px #eeb93e;
+    margin-right: 20px;
 }
 
 /* DETAIL PRODUCT */
@@ -228,18 +232,26 @@ footer div p{
     margin: 10%;
     padding: 5%;
     border-radius: 20px;
+    border: black;
+    border-style: groove;
     background: radial-gradient(50% 50% at 50% 50%, rgba(187, 192, 197, 0.301) 0%, rgba(228, 228, 220, 0.158) 30.21%, #595f682c 50%);    
 }
 #detailProduct img{
     border-radius: 20px;
+    width: 90%;
 }
+#detailProduct p{
+    font-size: medium;
+}
+
+
 
 /* CARRITO */
 
 .carrito{
-    margin: 10%;
-    padding: 5%;
-    border-radius: 20px;
+    margin: 5%;
+    padding: 2%;
+    border-radius: 10px;
     background: radial-gradient(50% 50% at 50% 50%, rgba(187, 192, 197, 0.301) 0%, rgba(228, 228, 220, 0.158) 30.21%, #595f682c 50%);
     display: flex;
     flex-direction: column;
@@ -251,10 +263,13 @@ footer div p{
     align-items: center;
 }
 .carrito article button{
-    height: 5vw;
-    min-height: 5vw;
-    width: 5vw;
+    height: 7vw;
+    min-height: 7vw;
+    width: 7vw;
     border-radius: 100%;
+}
+.carrito h2{
+    font-size: 1.5vh;
 }
 .carrito article img{
     width: 20vw;
@@ -263,11 +278,11 @@ footer div p{
     border-radius: 20px;
 }
 .carrito article p{
-    font-size: larger;
+    font-size: 1.5vh;
 
 }
 .carrito article a{
-    font-size: larger;
+    font-size: 1.5vh;
 }
 
 #cantidadCarrito p{
@@ -282,16 +297,11 @@ footer div p{
 }
 /* TABLET */
 
-@media (min-width: 768px) and (max-width: 1024px) {
+/* @media (min-width: 700px) {
     
     .services{
-        display: flex;
         flex-direction: row;
-        justify-content: space-evenly;
         align-items: center;
-        gap: 10px;
-    }header{
-        background-color: #1B2430;
     }
 
-}
+} */
