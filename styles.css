@@ -104,6 +104,9 @@ button{
     font-size: 3vw;
     text-align: center;
 }
+.services article p{
+    height: 10vh;
+}
 .services article div{
     display: flex;
     flex-direction: row;
@@ -148,8 +151,8 @@ button img{
 }
 
 .nosotros img{
-    width: 70vw;
-    height: 30vh;
+    width: 90%;
+    height: auto;
     border-radius: 20px;
     object-fit: cover;
     
@@ -160,7 +163,7 @@ button img{
 }
 .nosotros p{
     font-size: 16px;
-    width: 70vw;
+    width: 70%;
     height: auto;
     
 }
@@ -354,7 +357,7 @@ footer div p{
     .services article{
         min-width: 20%;
         width: 20%;
-        height: auto;
+        height: 20%;
         padding: 10px;
         border-radius: 20px;
         border-color: black;
@@ -362,18 +365,30 @@ footer div p{
         background: radial-gradient(50% 50% at 50% 50%, rgba(187, 192, 197, 0.301) 0%, rgba(228, 228, 220, 0.158) 30.21%, #595f682c 50%);
     }
     button{
-        width: 8vw;
-        height: 4vw;
+        width: 6vw;
+        height: 3vw;
         color:#1B2430;
         font-weight: bolder;
         border-radius: 5px;
-        font-size: 1.5vw;
+        font-size: 1vw;
         text-align: center;
     }
     button img{
-        width: 6vw;
-        height: 3vw;
+        width: 4vw;
+        height: 2vw;
     }
+
+    .nosotros article{
+        gap: 15px;
+        padding: 10px;
+        background: radial-gradient(50% 50% at 50% 50%, #bbc0c54d 0%, rgba(228, 228, 220, 0.158) 30.21%, #595f682c 50%);
+        border-radius: 20px;
+        width: 60%;
+        height: 50%;
+        border-color: black;
+        border-style: groove;
+    }
+
 
     footer{
         height: 30vh;
