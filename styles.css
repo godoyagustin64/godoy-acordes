@@ -575,6 +575,9 @@ form textarea{
         align-items: center;
         justify-content: center;
     }
+    #trabaja img{
+        object-position: top;
+    }
 
     footer{
         height: 30vh;
