@@ -415,22 +415,39 @@ form textarea{
 /* MAIN */
 
     header{
-        height: 8vh;
+        height: 10vh;
+        background: linear-gradient(180deg, rgba(226,194,117,1) 70%, rgba(195,106,45,1) 100%);
     }
-    nav{
-        display: block;
+    .navDesktop{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
     }
-    nav ul{
+    .navMobile{
+        display:none;
+    }
+    .nav-menuD{
         display: flex;
         flex-direction: row;
         gap: 20px;
     }
-    nav ul li{
+    .nav-menuD li{
         list-style: none;
+    }
+    .nav-menuD li:hover{
+        background-color: #E2C275;
+        height: 5vh;
+    }
+
+    .nav-menuD li a{
+        color: #ffffff;
+        text-decoration: none;
+        font-weight: bold;
     }
     #imglogo{
         height: 7vh;
-        width: auto;
+        width: 7vh;
+
     }
     #burgerMenu{
         display: none;
