@@ -22,7 +22,7 @@
 header{
     padding: 15px;
     height: 15vh;
-    background-color: #E2C275;
+    background: linear-gradient(180deg, rgba(226,194,117,1) 70%, rgba(195,106,45,1) 100%);
 }
 .navDesktop{
     display: none;
@@ -40,6 +40,7 @@ header{
     font-size: 3em;
     max-width: 10vh;
     color:#C36A2D;
+    text-shadow: 3px 3px 3px #49240e;
     cursor: pointer;
 }
 
@@ -85,6 +86,9 @@ header{
 #imglogo img{
     border-radius: 100%;
     width: 10vh;
+    border-color: rgba(0, 0, 0, 0.1);
+    border-style: groove;
+    border-width: 2px;
 }
 
 body{
@@ -109,6 +113,7 @@ body{
 .products h2{
     margin-bottom: 50px;
     font-size: 30px;
+    text-shadow: 2px 2px 2px #000000;
 }
 
 .services{
@@ -130,8 +135,9 @@ body{
     height: auto;
     padding: 10px;
     font-size: 20px;
+    font-weight: bold;
     border-radius: 20px;
-    border-color: black;
+    border-color: rgba(0, 0, 0, 0.1);
     border-style: groove;
     background: radial-gradient(50% 50% at 50% 50%, rgba(187, 192, 197, 0.301) 0%, rgba(228, 228, 220, 0.158) 30.21%, #595f682c 50%);
 }
@@ -193,8 +199,11 @@ button img{
     border-radius: 20px;
     width: 80%;
     height: auto;
-    border-color: black;
+    border-color: rgba(0, 0, 0, 0.1);
     border-style: groove;
+}
+.nosotros article div p{
+    margin-inline: auto;
 }
 
 .nosotros img{
@@ -230,6 +239,7 @@ footer{
     color: black;
     font-size: 2.3vh;
     text-shadow: 3px 3px 3px #eeb93e;
+    margin-inline: 1em;
 }
 
 .redes img{
@@ -437,7 +447,7 @@ form textarea{
     .nav-menuD{
         display: flex;
         flex-direction: row;
-        gap: 20px;
+        justify-content: space-between;
     }
     .nav-menuD li{
         display: flex;
@@ -446,6 +456,7 @@ form textarea{
         width: 7vw;
         align-items: center;
         justify-content: center;
+        margin-inline: 50px;
     }
     .nav-menuD li:hover{
 
@@ -503,8 +514,6 @@ form textarea{
         height: 20%;
         padding: 10px;
         border-radius: 20px;
-        border-color: black;
-        border-style: groove;
         background: radial-gradient(50% 50% at 50% 50%, rgba(187, 192, 197, 0.301) 0%, rgba(228, 228, 220, 0.158) 30.21%, #595f682c 50%);
     }
     button{
@@ -521,17 +530,48 @@ form textarea{
         height: 2vw;
     }
 
+    .nosotros{
+        gap: 0px;
+        margin-top: 20px;
+    }
     .nosotros article{
         gap: 15px;
         padding: 10px;
-        background: radial-gradient(50% 50% at 50% 50%, #bbc0c54d 0%, rgba(228, 228, 220, 0.158) 30.21%, #595f682c 50%);
-        border-radius: 20px;
-        width: 60%;
-        height: 50%;
-        border-color: black;
+        background: linear-gradient(90deg, rgba(215,215,215,0.3393732492997199) 0%, rgba(97,97,97,0.36738445378151263) 100%);
+        border-radius: 10px;
+        width: 80vw;
+        height: 30vh;
         border-style: groove;
     }
 
+    .nosotros article div{
+        display: flex;
+        width: 100vw;
+        margin: 10px;
+    }
+    .nosotros article div img{
+        object-fit: cover;
+        height: 18vh;
+        border-radius: 20px 100px 100px 20px;
+    }
+    #lutheria{
+        align-self: flex-start;
+        align-items: center;
+        justify-content: center;
+    }
+    #sucursales{
+        align-self: flex-end;
+        align-items: center;
+        justify-content: center;
+    }
+    #sucursales img{
+        border-radius: 100px 20px 20px 100px
+    }
+    #trabaja{
+        align-self: flex-start;
+        align-items: center;
+        justify-content: center;
+    }
 
     footer{
         height: 30vh;
@@ -543,7 +583,7 @@ form textarea{
         margin: 2em;
         margin-top: 3em;
         left: 40px;
-        width: 15vw;
+        width: 10vw;
         height: 10vh;
     }
     .logoFooter img{
@@ -563,7 +603,7 @@ form textarea{
         border-radius: 15px;
     }
     .despedida{
-        font-size: large;
+        font-size: 1.2em;
     }
     footer div p{
         font-size: small;
@@ -572,7 +612,7 @@ form textarea{
         gap: 30px;
         flex-direction: row;
         margin-bottom: 40px;
-        font-size: 2vw;
+        font-size: 1.7em;
     }
     .redes{
         background-color: rgba(236, 162, 24, 0.322);
