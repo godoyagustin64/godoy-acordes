@@ -6,20 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Carrito</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/2cb25f2c39.js"></script>
 </head>
 <body>
     <header>
-        <img id="imglogo" src="assets/images/logo.png" alt="Logo">
-        <a id="burgerMenu" title="Burger Menu" href="menu"><img src="assets/images/burger-menu.png" alt="Burger Menu" /></a>
-        <nav>
-            <ul>
-                <li><a href="http://127.0.0.1:5500/godoy-acordes/home.html">HOME</a></li>
-                <li><a href="http://localhost:5500/godoy-acordes/detail-product.html">PRODUCTOS</a></li>
-                <li><a href="index.html">LOGIN</a></li>
-                <li><a href="index.html">REGISTRARSE</a></li>
-            </ul>
-        </nav>
-    </header>
+        <nav class="navMobile">
+            <div id="imglogo">
+                <img src="assets/images/logo.png" alt="Logo">
+            </div>
+                <input type="checkbox" id="check">
+                <label for="check" class="bar-btn">
+                    <i class="fas fa-bars"></i>
+                </label>
+                <ul class="nav-menu">
+                    <li><a href="http://localhost:5500/godoy-acordes/home.html">HOME</a></li>
+                    <li><a href="http://localhost:5500/godoy-acordes/detail-product.html">PRODUCTOS</a></li>
+                    <li><a href="http://localhost:5500/godoy-acordes/login.html">LOGIN</a></li>
+                    <li><a href="http://localhost:5500/godoy-acordes/register.html">REGISTRARSE</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
     <br><br>
     <main>
         <h1>Carrito:</h1>

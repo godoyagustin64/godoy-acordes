@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Detail Product</title>
+    <title>Login</title>
     <link rel="stylesheet" href="styles.css">
     <script src="https://kit.fontawesome.com/2cb25f2c39.js"></script>
 </head>
@@ -28,29 +28,43 @@
         </div>
     </div>
 </header>
-    <br><br>
-    <main class="detailMain">
-        <h1>Detalle del producto:</h1>
-        <section id="detailProduct">
-            <img src="assets/images/producto_gibson_1.png" alt="Gibson">
-            <h2>GIBSON LES PAUL 1968</h2>
-                <p>Descripción del producto:
-
-                    * 2 controles de tono
-                    * 2 controles de volumen
-                    * 2 pastillas P-90 personalizadas del 68
-                    * 22 trastes
-                    * Color: Goldtop
-                    * Custom Shop
-                    * Fabricada en Estados Unidos
-                    * Fondo de caoba maciza (Swietenia Macrophylla)
-                    * Incluye estuche Gibson personalizado y certificado de autenticidad
-                    * Tapa tallada de arce</p>
+<body>
+    <main>
+        <h2>Ingresar:</h2>
+        <section class="loginForm">
+            <form action="/login" method="post">
+                <label for="username">Nombre de usuario</label>
+                <input 
+                    type="text"
+                    name="username"
+                    id="username"
+                    autofocus/>
+                <label for="password">Contraseña</label>
+                <input 
+                    type="password"
+                    name="password" 
+                    id="password"/>
+        
+                    <input 
+                    type="checkbox" 
+                    name="recordarUsuario" 
+                    id="recordarUsuario">
+                    <label for="recordarUsuario">Recordar usuario</label>
                     <br>
-                <p>$1750000</p>
+                    <input 
+                    type="checkbox" 
+                    name="mantenerseConectado" 
+                    id="mantenerseConectado">
+                    <label for="mantenerseConectado">Mantenerse conectado</label>
+                <br>
+                    
+                <button type="submit">Ingresar</button>
+                
+            </form>
         </section>
+        <a class="olvide" href="">Olvidé mi contraseña</a>
     </main>
-    <br><br>
+    <br><br><br>
     <footer>
         <p class="despedida">Te ayudamos a encontrar el sonido que querés. Compartimos tu amor por la música.</p>
         <div>
@@ -66,11 +80,12 @@
             <br>
             <div class="redes">
             <p>Visitanos en nuestras redes:</p>
-            <img src="assets/images/instagramlogo-sinfondo.png" alt="Instagram">
-            <img src="assets/images/twitterlogo-sinfondo.png" alt="Twitter">
-            <img src="assets/images/facebooklogo-sinfondo.png" alt="Facebook">
+            <a title="Instagram" href="https://www.instagram.com/agu._G/" target="_blank"><img src="assets/images/instagramlogo-sinfondo.png" alt="Instagram"></a>
+            <a title="Twitter"href="https://twitter.com/agu_g_ok" target="_blank"><img src="assets/images/twitterlogo-sinfondo.png" alt="Twitter"></a>
+            <a title="Facebook"href="https://www.facebook.com/agu.g.music" target="_blank"> <img src="assets/images/facebooklogo-sinfondo.png" alt="Facebook"></a>
             </div>
         </div>
     </footer>
+    
 </body>
 </html>

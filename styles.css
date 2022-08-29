@@ -21,27 +21,78 @@
 
 header{
     padding: 15px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
     max-width: 100%;
     height: 15vh;
     background-color: #E2C275;
-    align-items: center;
-    text-decoration: none;
 }
-nav{
+.navDesktop{
     display: none;
 }
+
+.navMobile{
+    height: 100px;
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bar-btn{
+    font-size: 30px;
+    color:#C36A2D;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.nav-menu{
+    position: fixed;
+    width: 100%;
+    height: 0vh;
+    top: 15vh;
+    background:rgba(226, 194, 117, .8);
+    text-align: center;
+    transition: all .5s;
+}
+.nav-menu li{
+    display: none;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 50px 0;
+    transition: all .5s;
+
+}
+
+.nav-menu li a {
+    display: block;
+    line-height: 30px;
+    margin: 50px 0;
+    transition: all .5s;
+    font-weight: 900;
+} 
+.nav-menu li a:active, .nav-menu:hover{
+    color: #C36A2D;
+}
+
+#check{
+    display: none;
+}
+#check:checked ~ .nav-menu{
+    height:fit-content;
+}
+
+#check:checked ~ .nav-menu li {
+    display:block;
+}
+
 #imglogo{
-    height: 14vh;
-    width: auto;
+    width: 30vh;
+    margin-right: 100px;
+    margin-left: 20px;
+}
+#imglogo img{
     border-radius: 100%;
+    width: 30vh;
 }
-#burgerMenu img{
-    width: 10vw;
-    height: 10vw;
-}
+
 body{
     width: 100%;
     height: auto;
@@ -318,6 +369,45 @@ footer div p{
     gap: 20px;
     font-size: 1.5vh;
 }
+
+
+/* LOGIN FORM */
+
+form{
+    background: radial-gradient(50% 50% at 50% 50%, rgba(187, 192, 197, 0.301) 0%, rgba(228, 228, 220, 0.158) 30.21%, #595f682c 50%);
+    max-width: 70%;
+    margin: 20px auto;
+    padding: 10px;
+    font-size: 15px;
+}
+form input{
+    margin-bottom: 10px;
+}
+form input, label{
+    width: 100%;
+}
+form input[type="radio"], input[type="checkbox"]  {
+    width: 10%;
+}
+form button{
+    text-align: center;
+    font-size: medium;
+    width: auto;
+    height: auto;
+    padding: 5px;
+}
+form textarea{
+    width: 100%;
+}
+
+.registerForm form{
+    text-align: left;
+}
+.registerForm input{
+    text-align: left;
+}
+
+
 /* DESKTOP */
 
 @media (min-width: 1024px) {
