@@ -303,6 +303,9 @@ footer div p{
     border-radius: 100%;
     background-size: auto;
 }
+.mapGoogle{
+    display: none;
+}
 
 
 /* DETAIL PRODUCT */
@@ -456,6 +459,7 @@ form textarea{
     
     .nav-menuD li a{
         color: #ffffff;
+        text-shadow:3px 3px 3px #1B2430;
         text-decoration: none;
         font-weight: bold;
     }
@@ -537,12 +541,26 @@ form textarea{
         display: block;
         position: absolute;
         margin: 2em;
+        margin-top: 3em;
         left: 40px;
-        width: 10vw;
+        width: 15vw;
         height: 10vh;
     }
     .logoFooter img{
         border-radius: 100%;
+        border-style:double;
+        border-width: 5px;
+        border-color: #7c7c7c71;
+    }
+
+    .mapGoogle{
+        display: block;
+        position: absolute;
+        margin: 2em;
+        right: 40px;
+        width: 20vw;
+        height: auto;
+        border-radius: 15px;
     }
     .despedida{
         font-size: large;
@@ -554,11 +572,11 @@ form textarea{
         gap: 30px;
         flex-direction: row;
         margin-bottom: 40px;
-        font-size: 1.2vw;
+        font-size: 2vw;
     }
     .redes{
         background-color: rgba(236, 162, 24, 0.322);
-        width: 50%;
+        width: 30vw;
         justify-content: space-around;
         border-radius: 20px;
     }
