@@ -2,10 +2,12 @@
 
 
 @import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cuprum:wght@600&display=swap');
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-family: 'Cuprum', sans-serif;
+    font-weight: 800;
     color: #C36A2D;
     text-align: center;
     box-sizing: border-box;
@@ -55,7 +57,7 @@ header{
 }
 .nav-menu li{
     display: none;
-    font-size: 1em;
+    font-size: 1.5em;
     margin: 10px 0;
 }
 
@@ -104,7 +106,8 @@ body{
     width: 100%;
 }
 .banner p{
-    margin: 0px 15px 0px 15px
+    margin: 0px 15px 0px 15px;
+    font-size: 1.2em;
 }
 
 #bannerImg{
@@ -112,7 +115,7 @@ body{
 }
 .products h2{
     margin-bottom: 50px;
-    font-size: 30px;
+    font-size: 2em;
     text-shadow: 2px 2px 2px #000000;
 }
 .title-word{
@@ -193,7 +196,7 @@ button{
     color:#1B2430;
     font-weight: bolder;
     border-radius: 5px;
-    font-size: 3vw;
+    font-size: 3.5vw;
     text-align: center;
 }
 .services article p{
@@ -225,7 +228,9 @@ button img{
     max-width: 100%;
     align-items: center;
     text-shadow: 1px 1px 1px #1B2430;
-
+}
+.nosotros h1{
+    font-size: 2em;
 }
 
 .nosotros article{
@@ -243,6 +248,7 @@ button img{
 }
 .nosotros article div p{
     margin-inline: auto;
+    font-size: 1.1em;
 }
 
 .nosotros img{
@@ -253,15 +259,10 @@ button img{
     
 }
 .nosotros h2{
-    font-size: 20px;
+    font-size: 2em;
     margin-bottom: 30px;
 }
-.nosotros p{
-    font-size: 16px;
-    width: 70%;
-    height: auto;
-    
-}
+
 
 footer{
     background-image: url("assets/images/footer-partitura-opacity.png");
@@ -272,11 +273,11 @@ footer{
     flex-direction: column;
     gap: 10px;
     width: 100%;
-    height: 50vh;
+    height: 40vh;
 }
 .despedida{
     color: black;
-    font-size: 2.3vh;
+    font-size: 2.5vh;
     text-shadow: 3px 3px 3px #eeb93e;
     margin-inline: 0.5em;
 }
@@ -301,7 +302,7 @@ footer div ul{
     flex-direction: column;
     list-style: none;
     color: black;
-    font-size: 2.5vh;
+    font-size: 2.7vh;
     text-shadow: 3px 3px 3px #eeb93e;
 }
 footer div ul li{
@@ -439,9 +440,25 @@ footer div p{
 
 /* LOGIN FORM */
 
+.loginMain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.loginMain img{
+    width: 100vw;
+    height: 40vh;
+    object-fit: cover;
+}
+.fondoDesktopL{
+    display: none;
+}
+
 form{
     background: radial-gradient(50% 50% at 50% 50%, rgba(187, 192, 197, 0.301) 0%, rgba(228, 228, 220, 0.158) 30.21%, #595f682c 50%);
-    max-width: 70%;
+    max-width: 15em;
     margin: 20px auto;
     padding: 10px;
     font-size: 15px;
@@ -472,7 +489,6 @@ form textarea{
 .registerForm input{
     text-align: left;
 }
-
 
 /* DESKTOP */
 
@@ -701,9 +717,9 @@ form textarea{
 /*LOGIN*/
 .loginMain{
     display: flex;
-    width: 100vw;
     flex-direction: row;
     align-items: center;
+    justify-content: space-between;
 }
 .loginMain img{
     width: 50vw;
@@ -711,8 +727,15 @@ form textarea{
     object-fit: cover;
 }
 
+.fondoDesktopL{
+    display: block;
+}
+.fondoMobileL{
+    display: none;
+}
+
 form{
-    max-width: 30%;
+    max-width: 40%;
     margin: 20px auto;
     padding: 10px;
     font-size: 15px;
