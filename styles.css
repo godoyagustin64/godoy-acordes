@@ -538,6 +538,7 @@ form textarea{
         text-shadow:3px 3px 3px #1B2430;
         text-decoration: none;
         font-weight: bold;
+        font-size: 1.3em;
     }
     .nav-menuD li a:active{
         color: #868686;
@@ -719,7 +720,7 @@ form textarea{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .loginMain img{
     width: 50vw;
@@ -754,12 +755,16 @@ form button{
     padding: 5px;
 }
 
+/* REGISTER D */
+
 .registerForm form{
     text-align: left;
 }
 .registerForm input{
     text-align: left;
 }
+
+/* CART D */
 
 .carrito{
     
@@ -774,7 +779,7 @@ form button{
     border-radius: 100%;
 }
 .carrito h2{
-    font-size: 2vh;
+    font-size: 1.5em;
 }
 .carrito article img{
     width: 10vw;
@@ -783,15 +788,15 @@ form button{
     border-radius: 20px;
 }
 .carrito article p{
-    font-size: 2vh;
+    font-size: 1.7em;
 
 }
 .carrito article a{
-    font-size: 2vh;
+    font-size: 1.5em;
 }
 
 #cantidadCarrito p{
-    font-size: 2vh;
+    font-size: 1.4em;
 }
 .priceAndRemove{
     display: flex;
@@ -800,7 +805,14 @@ form button{
     gap: 20px;
     font-size: 1.5vh;
 }
+
+.botonesComprar button{
+    font-size: 1.1em;
+    width: 7em;
+}
+.total{
+    font-size: 1.8em;
 }
 
-/* CART */
+}
 
