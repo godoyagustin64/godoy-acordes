@@ -514,6 +514,7 @@ form textarea{
         background-position: center;
         border-radius: 15%;
         align-items: center;
+        transition: .5s;
     }
     
     .nav-menuD li a{
