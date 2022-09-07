@@ -717,10 +717,10 @@ form textarea{
 
 /*LOGIN*/
 .loginMain{
-    display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin-right: 25vh;
 }
 .loginMain img{
     width: 50vw;
