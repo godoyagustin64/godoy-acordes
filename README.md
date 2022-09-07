@@ -17,7 +17,7 @@ el Público objetivo es variado, ya sea músicos profesionales o cualquier perso
 
 Se eligió esta tipografía como principal para los textos de la página.
 
-**font-family: 'El Messiri', sans-serif;**
+**font-family: 'Cuprum', sans-serif;**
 
 Se eligió esta fuente para el nombre de la página, intercambiable por logo en algún otro diseño. 
 
