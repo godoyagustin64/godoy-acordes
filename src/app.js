@@ -2,15 +2,15 @@ const express = require("express");
 const path = require("path");
 const app = express();
 
+//carpeta PUBLIC static
+app.use(express.static("public"));
+
+
+
 
 app.get("/", (req,res)=>{
     res.send("Estoy en home");
 });
-
-
-//carpeta PUBLIC static
-app.use(express.static("public"));
-
 
 app.get("/detail-product", (req,res)=>{
     res.send("Estoy en detail-product");
