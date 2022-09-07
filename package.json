@@ -1,0 +1,27 @@
+{
+  "name": "godoy-acordes",
+  "version": "1.0.0",
+  "description": "Este e-commerce a modo práctico sería una página de venta de instrumentos musicales. \r Cuenta con productos separados por tipo, marca, con precio, carrito, compras online.\r También se ofrecería **servicio de asistencia**  con instrumentos y luthería (reparación) por diferentes medios de contacto.",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "npx nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/godoyagustin64/godoy-acordes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/godoyagustin64/godoy-acordes/issues"
+  },
+  "homepage": "https://github.com/godoyagustin64/godoy-acordes#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
