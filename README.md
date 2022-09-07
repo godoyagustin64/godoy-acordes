@@ -13,13 +13,10 @@ el Público objetivo es variado, ya sea músicos profesionales o cualquier perso
 
 #### Tipografía Principal
 
-**font-family: 'Kdam Thmor Pro'**
+**font-family: 'Cuprum', sans-serif;**
 
 Se eligió esta tipografía como principal para los textos de la página.
 
-**font-family: 'Cuprum', sans-serif;**
-
-Se eligió esta fuente para el nombre de la página, intercambiable por logo en algún otro diseño. 
 
 #### Paleta de colores
 
